@@ -1,0 +1,13 @@
+name: rolls-of-khyber
+author: Ren
+version: @version@
+main: com.tearsofkhyber.rolls.RollsOfKhyber
+api-version: 1.14
+depend:
+- rpk-core-bukkit
+- rpk-player-lib-bukkit
+- rpk-character-lib-bukkit
+commands:
+  roll:
+    description: Rolls dice
+    usage: /<command> [roll]
